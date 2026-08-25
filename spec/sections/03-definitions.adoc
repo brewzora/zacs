@@ -1,0 +1,179 @@
+== Definitions
+
+For purposes of this Standard, the following definitions apply.
+
+Adoption Identifier::
+The complete identifier formed from an exact ZACS version, one Provenance
+Profile, and one Verification Profile. For example,
+`ZACS-0.1-draft-P2-V1`.
+
+Adoption Notice::
+The Project's published statement adopting an exact ZACS version and profile
+combination. An Adoption Notice identifies the Adoption Identifier, adoption
+scope, Effective Date, and location of the applicable Project Policy.
+
+Attestation::
+A statement or set of statements made by an identifiable human Contributor to
+provide the assurances required by this Standard, an adopted profile, or the
+Project Policy.
+
+Automated Generative System (AGS)::
+A system that generates or substantially transforms expressive or functional
+material in response to prompts, context, examples, instructions, or materially
+equivalent input. AGS includes generative artificial-intelligence systems,
+large language models, agentic development tools, and materially equivalent
+systems, regardless of how they are marketed or implemented.
++
+A tool is not an AGS merely because it is automated. A conventional compiler,
+formatter, calculator, search facility, or deterministic transformation tool
+is not an AGS unless the relevant function generates or substantially
+transforms material in a manner described above.
+
+Automated Review::
+Evaluation of a Contribution performed by an automated system. Automated
+Review may produce useful Evidence but is not Human Review and does not, by
+itself, establish a Contributor's understanding.
+
+Contribution::
+Code, tests, documentation, data, designs, artwork, audio, configuration, or
+other material offered to a Project for incorporation, distribution,
+publication, operation, or other Project use.
+
+Contributor::
+The identifiable human to whom Contributor requirements apply and who submits
+or authorizes submission of a Contribution, whether personally or on behalf of
+another person or organization. An AGS is not a Contributor for purposes of
+this Standard.
+
+Contemporaneous Generative Assistance::
+Use of an AGS while preparing or providing a response in a Verification
+Procedure intended to assess the Contributor's own understanding. The term
+does not include ordinary accessibility tools, non-generative reference
+materials, or conventional non-generative translation tools.
+
+Covered Contribution::
+A Contribution within the scope and effective period stated in a Project's
+Adoption Notice.
+
+Disclosure::
+A reasonably accessible statement identifying AGS use or another fact required
+to be revealed by an adopted profile. Disclosure communicates that the use or
+fact occurred; it does not necessarily provide the detail required by
+Documentation.
+
+Disclosure Mechanism::
+The location and method designated by a Project for making a required
+Disclosure. Examples may include a pull-request field, commit trailer, issue
+form, manifest, or other Project-controlled record.
+
+Documentation::
+Recorded information sufficient to describe a matter to the extent required by
+an adopted profile or Project Policy. Documentation of AGS use may include the
+system used, affected material, methodology, source context, review, and
+validation, as applicable.
+
+Effective Date::
+The date, time, or objectively determinable event after which the Adoption
+Notice applies to Contributions within its stated scope.
+
+Evidence::
+Information or a record used to support an Attestation, review result, or
+conformance determination. Evidence does not become independent proof merely
+because a Project preserves or relies on it.
+
+Human Review::
+Review performed by an identifiable human who examines the complete material
+within the required scope and applies the judgment required by the adopted
+profile. Automated Review may assist Human Review but cannot replace it unless
+this Standard expressly provides otherwise.
+
+Incidental Assistance::
+AGS use for a mechanical, clerical, informational, or advisory purpose when no
+generated or substantially transformed expressive or functional material is
+retained in the Contribution and the use does not materially determine the
+Contribution's design, methodology, implementation, behavior, correctness,
+security, privacy, licensing, provenance, or maintainability.
++
+Assistance is not Incidental Assistance merely because the retained output is
+short, edited, or combined with human-created material.
+
+Known Source Material::
+Source Material that the Contributor knows, or reasonably should know, is
+Third-Party Material. Knowledge may arise from direct identification, supplied
+context, recognizable content, a citation, a model response, or another
+credible indication of origin.
+
+Material Assistance::
+AGS use that generates or substantially transforms material retained in a
+Contribution, or that materially determines the Contribution's design,
+methodology, implementation, behavior, correctness, security, privacy,
+licensing, provenance, or maintainability.
++
+When AGS use does not satisfy every condition of Incidental Assistance, it MUST
+be treated as Material Assistance unless another adopted-profile category
+expressly applies.
+
+Official ZACS Publication::
+A complete, unmodified ZACS publication released by the ZACS steward through
+an official repository or publication channel. A modified or independently
+maintained derivative is not an Official ZACS Publication.
+
+Project::
+The repository, organization, product, service, working group, or other
+collaborative body adopting this Standard for an identified scope of
+Contributions.
+
+Project Policy::
+The Project's published procedures for implementing its selected ZACS version
+and profiles. A Project Policy may identify disclosure mechanisms, required
+records, review procedures, permitted exceptions, enforcement processes, and
+stricter Project-specific requirements.
+
+Provenance Profile::
+One of the `P` profiles defined by this Standard. A Provenance Profile governs
+human accountability, AGS disclosure and documentation, source-material
+handling, and restrictions on AGS assistance.
+
+Retained Output::
+Material generated or substantially transformed by an AGS that remains in a
+Contribution after the Contributor's review, including material retained in
+edited, translated, rearranged, or combined form.
+
+Source Material::
+Preexisting material used as input, context, an example, a basis for
+transformation, or a source for material included in a Contribution.
+
+Third-Party Material::
+Material in which rights are held or claimed by a person or entity other than
+the Contributor or the person or organization on whose behalf the Contribution
+is submitted. The term does not determine whether the material is protected or
+whether a particular use is legally permitted.
+
+This Standard::
+The complete, unmodified document identified by the ZACS Identifier stated in
+the publication header.
+
+Verification::
+A process required by a Verification Profile to evaluate an Attestation,
+review activity, Contributor understanding, or other conformance matter.
+Verification supplies Evidence; it does not guarantee that the verified matter
+is true, complete, lawful, original, correct, or secure.
+
+Verification Procedure::
+The documented method used by a Project to perform Verification, including any
+required reviewer, question, demonstration, record, timing, or acceptance
+criterion.
+
+Verification Profile::
+One of the `V` profiles defined by this Standard. A Verification Profile
+governs how a Project checks or obtains Evidence of Contributor attestations,
+review, and understanding.
+
+ZACS::
+The family of Zero Ambiguity Contribution Standard publications maintained by
+the ZACS steward. A reference to ZACS without an exact version and profiles
+does not identify a complete conformance target.
+
+ZACS Identifier::
+The identifier of an exact Official ZACS Publication, excluding the profiles
+selected by an adopting Project. For example, `zacs-0.1-draft`.
