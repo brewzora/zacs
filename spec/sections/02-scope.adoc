@@ -1,0 +1,143 @@
+== Scope
+
+=== Purpose
+
+ZACS governs contribution provenance, disclosure of automated generative
+assistance, human accountability, and verification of a Contributor's review
+and understanding.
+
+It provides Projects with a versioned framework for selecting and communicating
+requirements through independent Provenance and Verification Profiles.
+
+ZACS applies to Contributions within the scope identified by a conforming
+Project Adoption Notice. It may be adopted by public or private Projects and
+by open-source, source-available, or closed-source Projects.
+
+=== Covered material
+
+A Contribution may include any material offered to a Project for incorporation,
+distribution, publication, operation, or other Project use, including:
+
+* source code and generated code;
+* tests, examples, and build or deployment material;
+* documentation and other text;
+* configuration and structured data;
+* datasets and database content;
+* designs, specifications, and diagrams;
+* artwork, images, models, animation, audio, and video; and
+* patches, revisions, or transformations of existing material.
+
+The form or submission mechanism does not determine whether material is a
+Contribution. Covered material may be submitted through a pull request, patch,
+commit, issue, form, upload, messaging system, or another mechanism identified
+by the Project.
+
+A Project MAY limit its adoption to identified categories of material or
+submission mechanisms, subject to the adoption-scope requirements of this
+Standard.
+
+=== Covered automated assistance
+
+ZACS applies when an Automated Generative System is used in preparing a covered
+Contribution and the use falls within a category regulated by the adopted
+Provenance or Verification Profile.
+
+Covered use may include an Automated Generative System used to:
+
+* generate material retained in a Contribution;
+* substantially transform existing material;
+* translate material between programming, data, markup, or natural languages;
+* propose or materially determine design, architecture, behavior, or
+  methodology;
+* identify or reproduce third-party material;
+* analyze, test, review, or validate a Contribution when the adopted profile
+  regulates that activity; or
+* assist a Contributor while responding to a verification procedure.
+
+Automated assistance may be covered even when no generated output is copied
+verbatim into the Contribution. The applicable profile determines whether the
+assistance is Incidental Assistance, Material Assistance, prohibited
+assistance, or another defined category.
+
+Ordinary use of an Automated Generative System outside the preparation, review,
+submission, or verification of a covered Contribution is outside the scope of
+ZACS unless the Project Policy expressly brings that use within scope.
+
+=== Covered participants and actions
+
+ZACS assigns requirements to identifiable human Contributors and adopting
+Projects as specified by each profile.
+
+ZACS may govern:
+
+* Contributor review and attestation;
+* disclosure and documentation of automated assistance;
+* identification and handling of Known Source Material;
+* Project-provided submission and disclosure mechanisms;
+* human or automated review procedures;
+* demonstrations of Contributor understanding;
+* preservation of conformance records; and
+* investigation and correction of suspected nonconformance.
+
+For purposes of ZACS, an Attestation MUST be made by an identifiable human. An
+Automated Generative System cannot make an Attestation or satisfy a requirement
+assigned to a Contributor.
+
+A human MAY submit a Contribution on behalf of an organization. The organization
+may own or control rights in the Contribution, but the identifiable human making
+the Attestation remains responsible for satisfying the Contributor requirements
+of the adopted profiles.
+
+ZACS does not determine the legal authorship or ownership of a Contribution.
+
+=== Matters outside the scope of ZACS
+
+ZACS does not:
+
+* determine whether any person or system is an author under applicable law;
+* determine copyrightability, ownership, originality, infringement, fair use,
+  or license compatibility;
+* grant, transfer, or assign copyright, patent, trademark, trade-secret, or
+  other rights;
+* certify the contents, sources, or legal status of model training data;
+* prove that generated or transformed material is free of third-party rights;
+* guarantee that a Contribution is lawful, correct, secure, private,
+  maintainable, accessible, or fit for a particular purpose;
+* approve or prohibit a particular product, provider, model, or tool except as
+  expressly stated in a Project-specific policy;
+* regulate development activity that is not within the Project's published
+  adoption scope; or
+* establish professional, employment, procurement, or regulatory compliance
+  outside the requirements expressly stated by this Standard.
+
+An Attestation, disclosure, review, or verification record is evidence supplied
+or produced through a Project process. It is not independent proof of
+provenance, legality, originality, correctness, or security.
+
+=== Relationship to other terms
+
+ZACS is designed to complement, not replace:
+
+* the license governing the Project or Contribution;
+* a contributor license agreement;
+* the unmodified Developer Certificate of Origin;
+* employment or contractor agreements;
+* confidentiality and security requirements;
+* third-party attribution and notice obligations; and
+* applicable laws and regulations.
+
+Adoption of ZACS does not alter any separate agreement or legal obligation.
+When another applicable term imposes a stricter compatible requirement, the
+Contributor and Project remain responsible for satisfying that requirement.
+
+If compliance with ZACS would conflict with applicable law or a binding legal
+obligation, the affected party SHOULD notify the Project through an appropriate
+channel and MUST NOT make a conformance claim that conceals the unresolved
+conflict.
+
+=== Project extensions
+
+A Project MAY extend the subject matter covered by its Project Policy or impose
+stricter compatible requirements. Extensions MUST be distinguished from the
+unmodified requirements of this Standard and MUST comply with the conformance
+rules for Project-specific requirements.

@@ -27,3 +27,5 @@ See https://github.com/brewzora/zacs/blob/main/TRADEMARKS.md[TRADEMARKS.md].
 include::spec/sections/00-preamble.adoc[]
 
 include::spec/sections/01-conformance.adoc[]
+
+include::spec/sections/02-scope.adoc[]
