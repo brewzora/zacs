@@ -35,3 +35,5 @@ include::spec/sections/03-definitions.adoc[]
 include::spec/sections/04-provenance-profiles.adoc[]
 
 include::spec/sections/05-verification-profiles.adoc[]
+
+include::spec/sections/06-attestation.adoc[]
