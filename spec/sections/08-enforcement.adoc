@@ -1,0 +1,289 @@
+== Enforcement and Correction
+
+=== Purpose
+
+This section establishes minimum procedures for responding to suspected or
+confirmed ZACS nonconformance. It does not prescribe a universal disciplinary
+system or require a Project to accept any Contribution.
+
+For purposes of this section, nonconformance means failure to satisfy an
+applicable requirement of the adopted ZACS profiles, this Standard, or a
+Project-specific requirement incorporated through the Project Policy.
+
+The primary purposes of enforcement are to:
+
+* prevent acceptance of unresolved nonconforming Contributions;
+* correct inaccurate Attestations, Disclosures, Documentation, and records;
+* identify and remediate affected material;
+* protect Project participants and applicable rights;
+* distinguish good-faith error from intentional concealment; and
+* preserve the integrity of the Project's conformance claims.
+
+=== Required Project procedure
+
+The Project Policy MUST publish a correction and enforcement procedure that
+identifies:
+
+. how suspected nonconformance may be reported;
+. who receives and evaluates reports;
+. available interim measures;
+. how the Contributor is notified and may respond;
+. possible corrective and participation outcomes;
+. how material decisions are recorded;
+. how reconsideration may be requested; and
+. how confidential, personal, security-sensitive, or legally restricted
+  information is handled.
+
+The procedure MUST be reasonably accessible to Contributors. A private Project
+MAY limit access to persons authorized to participate in the covered workflow.
+
+A Project MAY address ZACS enforcement through an existing contribution,
+security, moderation, or compliance process when that process satisfies every
+requirement of this section.
+
+=== Reporting suspected nonconformance
+
+The Project MUST provide at least one reasonably accessible reporting
+mechanism. The mechanism SHOULD support non-public reports when public
+disclosure could expose confidential information, personal data, security
+vulnerabilities, credentials, or disputed third-party material.
+
+A report SHOULD identify, to the extent reasonably available:
+
+* the affected Contribution;
+* the suspected requirement or Project Policy violation;
+* the relevant Attestation, Disclosure, Documentation, or review record;
+* the factual basis for the concern; and
+* any apparent urgency or continuing risk.
+
+A Project MUST NOT require a reporter to prove nonconformance before accepting
+a report for initial assessment. A report does not, by itself, establish that
+nonconformance occurred.
+
+The Project SHOULD protect reporters and participants from retaliation for a
+good-faith report or response. Knowingly false reports and deliberate abuse of
+the reporting process MAY be addressed under the Project's applicable conduct
+policies.
+
+=== Initial assessment and interim measures
+
+The Project MUST make an initial assessment sufficient to determine whether the
+report is within scope, facially unsupported, requires clarification, or
+warrants investigation.
+
+While a material concern remains unresolved, the Project MUST NOT represent the
+affected Contribution as having completed the applicable ZACS process.
+
+Before acceptance, the Project MAY pause review, prevent merging, request
+additional Evidence, or require correction.
+
+After acceptance, the Project MAY apply proportionate interim measures,
+including:
+
+* labeling or isolating affected material;
+* temporarily disabling distribution or use;
+* restricting a release or deployment;
+* reverting or quarantining the Contribution;
+* limiting access to sensitive records; or
+* initiating a security, legal, license, or provenance review.
+
+An interim measure is not a final determination. It SHOULD be no broader or
+longer than reasonably necessary to manage the identified risk.
+
+=== Notice and opportunity to respond
+
+Before making a material adverse determination, the Project MUST ordinarily
+provide the Contributor with:
+
+. notice of the material concern;
+. enough non-protected information to understand and respond to it;
+. a reasonable opportunity to clarify, correct, or supply Evidence; and
+. notice of the possible outcome under the Project Policy.
+
+The Project MAY delay or limit notice when reasonably necessary to protect a
+person, preserve Evidence, contain a security incident, comply with law, honor
+a binding confidentiality obligation, or prevent continuing harm.
+
+When notice is delayed or limited, the Project SHOULD provide the omitted
+process as soon as the reason permits. The Project MUST NOT disclose protected
+information merely to satisfy this section.
+
+Failure to respond MAY be considered using the available Evidence, but it MUST
+NOT automatically be characterized as intentional concealment without an
+additional reasonable basis.
+
+=== Investigation
+
+An investigation MUST be reasonably scoped to the suspected nonconformance and
+the risk presented. The person evaluating the matter MUST consider relevant
+available Evidence, including, as applicable:
+
+* the Covered Contribution and its history;
+* the Contributor's Attestation;
+* required Disclosures and Documentation;
+* review and Verification records;
+* Project controls and approved exceptions;
+* the Contributor's explanation and corrective action;
+* credible provenance, license, or source indications; and
+* relevant automated or human review results.
+
+Automated detection, authorship classification, similarity analysis, or AGS
+detection MUST NOT be treated as conclusive by itself. Material results MUST be
+evaluated in context by an identifiable human before an adverse determination.
+
+The investigator SHOULD avoid requesting broad prompt histories, unrelated
+account data, private communications, or device access when narrower Evidence
+can reasonably address the concern.
+
+The Project SHOULD assign a person without a material conflict of interest to
+make the determination. When complete independence is not reasonably available,
+the Project MUST disclose or record the material conflict and apply the
+reconsideration process required by this section.
+
+=== Determinations
+
+The Project MUST base a material determination on the available Evidence and
+record one of the following or a substantively equivalent outcome:
+
+* no nonconformance found;
+* insufficient Evidence to determine;
+* correctable nonconformance;
+* nonconformance corrected;
+* unresolved nonconformance; or
+* intentional or reckless misrepresentation or concealment.
+
+A finding of insufficient Evidence is not a finding that the Contribution
+conformed. The Project determines whether the remaining uncertainty permits
+acceptance under its selected profiles and other applicable policies.
+
+A determination MUST distinguish the status of the Contribution from any
+decision affecting the Contributor's participation. A nonconforming
+Contribution does not automatically establish contributor misconduct.
+
+=== Good-faith error and intentional concealment
+
+The Project SHOULD treat prompt self-reporting, cooperation, reasonable
+reliance on ambiguous guidance, and effective corrective action as indications
+of good faith.
+
+The Project MAY consider the following as evidence of greater culpability when
+supported by the record:
+
+* knowingly false Attestation or Disclosure;
+* deliberate omission of required Documentation;
+* concealment or falsification of Known Source Material;
+* fabrication or alteration of Verification Evidence;
+* prohibited Contemporaneous Generative Assistance used to defeat V2;
+* repeated similar nonconformance after clear notice; or
+* obstruction, retaliation, or destruction of relevant Evidence.
+
+No single factor is automatically conclusive. The Project MUST consider the
+context and available contrary Evidence before characterizing conduct as
+intentional or reckless.
+
+=== Corrective outcomes
+
+For a correctable matter, the Project MAY require one or more of the following:
+
+* correction or renewal of the Attestation;
+* completion or correction of Disclosure or Documentation;
+* additional Human Review or Verification;
+* removal or replacement of affected material;
+* preservation or restoration of required notices;
+* new testing, provenance analysis, or license review;
+* completion of a permitted exception process; or
+* resubmission under a process that independently satisfies the adopted
+  profiles.
+
+Correction MUST satisfy every applicable requirement. Disclosure of a
+violation does not, by itself, cure the violation.
+
+Before acceptance, a Covered Contribution with unresolved material
+nonconformance MUST NOT be accepted under the Project's ZACS adoption.
+
+After acceptance, the Project MUST take reasonable action proportionate to the
+risk and available remedies. Action MAY include correcting, reverting,
+removing, replacing, isolating, or ceasing distribution of affected material.
+
+When complete removal or correction is not reasonably possible, the Project
+MUST document the known limitation and MUST NOT continue an unqualified
+conformance claim for the affected Contribution.
+
+=== Participation outcomes
+
+The Project Policy MAY authorize participation measures such as education,
+warning, additional review, temporary restriction, removal of privileges, or
+exclusion from the Project.
+
+A participation measure SHOULD be proportionate to the supported conduct,
+history, risk, corrective action, and need to protect the Project and its
+participants. ZACS does not require punishment for a good-faith mistake.
+
+Nothing in this Standard requires a Project to continue reviewing, accept, or
+merge a Contribution. A Project MUST NOT falsely describe an ordinary editorial
+or technical rejection as a ZACS enforcement determination.
+
+=== Urgent legal, rights, privacy, and security matters
+
+A Project MAY take immediate action without completing the ordinary process
+when reasonably necessary to address an apparent legal obligation, rights
+violation, privacy exposure, credential disclosure, active security risk, or
+other imminent material harm.
+
+Immediate action MAY include restricting access, disabling distribution,
+reverting a change, preserving Evidence, or referring the matter to an
+appropriate legal, security, platform, or rights-holder process.
+
+Urgent action does not determine legal liability or excuse the Project from
+providing later notice and review when reasonably possible.
+
+ZACS does not replace a statutory notice-and-takedown process, court order,
+contractual obligation, law-enforcement request, or other binding legal
+procedure.
+
+=== Reconsideration
+
+The Project MUST provide a reasonable method to request reconsideration of a
+material adverse determination or participation measure.
+
+A request MAY be limited to a stated period and MUST identify a claimed factual
+error, procedural error, new Evidence, disproportionate outcome, or other
+reasonable basis.
+
+When reasonably practicable, a person who did not make the original decision
+SHOULD evaluate the request. A small Project unable to provide a different
+reviewer MAY reconsider using the complete record and MUST document the result.
+
+The Project MAY decline repetitive requests that present no material new basis.
+
+=== Records, privacy, and transparency
+
+The Project MUST preserve enough information to identify material reports,
+Evidence considered, determinations, corrective action, and reconsideration
+outcomes for as long as reasonably necessary to support its conformance claims
+and other applicable obligations.
+
+The Project MUST limit collection, access, publication, and retention of
+personal, confidential, or security-sensitive information to what is reasonably
+necessary for the process and applicable obligations.
+
+ZACS does not require public identification of a reporter, Contributor,
+reviewer, or disciplined participant beyond what the public contribution record
+and other applicable policies already require.
+
+The Project SHOULD publish aggregate or de-identified enforcement information
+when useful for improving the Standard or Project Policy and lawful to do so.
+
+=== Effect on Project conformance
+
+An isolated nonconformance does not automatically terminate a Project's ZACS
+adoption when the Project applies its published procedure and takes reasonable
+corrective action.
+
+A Project MUST NOT claim conformance for a scope in which it knowingly and
+materially fails to implement the adopted profiles or enforcement procedure.
+
+Failure to enforce a requirement in one instance does not amend this Standard,
+waive the requirement for another Contribution, or create a Project-specific
+exception unless the adopted profile and Project Policy authorize that
+exception.
