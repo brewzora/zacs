@@ -1,0 +1,279 @@
+== Provenance Profiles
+
+=== Purpose and selection
+
+Provenance Profiles define progressively stronger requirements for human
+accountability, disclosure, documentation, control, and restriction of AGS use
+in covered Contributions.
+
+A conforming Project MUST select exactly one Provenance Profile. The selected
+profile incorporates every lower-numbered Provenance Profile, subject only to
+an express replacement stated in this section.
+
+[cols="1,2,5",options="header"]
+|===
+|Profile |Name |Core requirement
+
+|P0
+|Accountable
+|An identifiable human reviews, understands, and accepts responsibility for
+the Contribution.
+
+|P1
+|Disclosed
+|Material Assistance is disclosed.
+
+|P2
+|Documented
+|Material Assistance and its review are documented.
+
+|P3
+|Controlled
+|Material Assistance is subject to published, substantive Project controls.
+
+|P4
+|No Material Assistance
+|Material Assistance is prohibited; only Incidental Assistance is permitted.
+|===
+
+=== Common classification requirements
+
+When an adopted Provenance Profile distinguishes Incidental Assistance from
+Material Assistance, the Contributor MUST classify the AGS use according to
+the definitions in this Standard.
+
+The Contributor MUST consider the complete course of assistance rather than
+only the final retained text or other material. Editing, translating,
+rearranging, or combining AGS output does not make Material Assistance
+Incidental Assistance.
+
+When reasonable uncertainty remains after review, the Contributor MUST treat
+the use as Material Assistance unless the Project resolves the classification
+under a published Project Policy.
+
+A Project MAY classify stated forms of assistance as Material Assistance but
+MUST NOT classify assistance as Incidental when it fails the definition of
+Incidental Assistance in this Standard.
+
+Incidental Assistance does not require Disclosure under ZACS unless the
+selected profile or Project Policy expressly requires it.
+
+=== P0 -- Accountable
+
+P0 establishes the minimum provenance and human-accountability requirements
+for every ZACS adoption.
+
+For each Covered Contribution, the Contributor MUST:
+
+. be an identifiable human;
+. personally review the complete Contribution;
+. understand the Contribution sufficiently to explain its purpose,
+  methodology, material design decisions, operation, and validation to the
+  extent applicable to the Contribution;
+. understand it sufficiently to maintain or revise it to the degree reasonably
+  expected for the Contributor's role;
+. reasonably believe that they, or the person or organization on whose behalf
+  they submit, have the right to submit it under the Project's applicable
+  terms;
+. not knowingly conceal Known Source Material or material provenance
+  information relevant to the Project's rights or obligations;
+. preserve required copyright, license, and attribution notices;
+. accept responsibility for the contents of the Contribution regardless of the
+  tools used; and
+. cooperate reasonably in investigating and correcting suspected provenance,
+  rights, or conformance problems.
+
+P0 does not require Disclosure solely because an AGS was used. Any Disclosure
+required by another applicable Project rule remains required.
+
+The Project MUST provide a mechanism by which the Contributor can make the P0
+Attestation required by this Standard.
+
+==== P0 and organizational submissions
+
+A Contributor MAY submit on behalf of an organization. In that case, the
+Contributor MUST reasonably believe they are authorized to submit the
+Contribution and make the required Attestation on the organization's behalf.
+
+The Contributor's Attestation addresses the matters assigned to the
+Contributor by ZACS. It does not, by itself, establish legal authorship,
+ownership, agency, or authority under applicable law.
+
+=== P1 -- Disclosed
+
+P1 incorporates P0 and requires disclosure of Material Assistance.
+
+Before a Covered Contribution is accepted, the Contributor MUST disclose each
+known use of Material Assistance through the Project's Disclosure Mechanism.
+
+The Disclosure MUST identify, to the extent reasonably known:
+
+. that Material Assistance occurred;
+. the AGS product, service, model, or tool used; and
+. the portions or categories of the Contribution materially affected.
+
+When more than one AGS materially affected the Contribution, the Disclosure
+MUST identify each system to the extent reasonably known. A Contributor MUST
+NOT knowingly identify only an intermediary tool when doing so would conceal a
+materially relevant underlying system.
+
+The Contributor MUST update the Disclosure when they discover that it was
+materially incomplete or inaccurate before acceptance. After acceptance, the
+Contributor MUST notify the Project through a reasonably available channel.
+
+The Project MUST make the Disclosure Mechanism reasonably accessible and MUST
+associate the Disclosure with the Covered Contribution or its review record.
+
+P1 does not require publication of prompts, confidential information,
+credentials, personal data, or protected security information. Withholding
+such material does not permit the Contributor to omit the minimum Disclosure
+required by P1.
+
+=== P2 -- Documented
+
+P2 incorporates P0 and P1 and requires a reviewable record of Material
+Assistance and the Contributor's validation.
+
+For each disclosed use of Material Assistance, the Contributor MUST document,
+to the extent applicable and reasonably known:
+
+. the purpose for which the AGS was used;
+. the nature of the generated, transformed, or materially influenced content;
+. the affected files, components, sections, assets, or other material;
+. the material methodology or workflow used;
+. Known Source Material supplied to, identified by, or reproduced through the
+  AGS;
+. material warnings, citations, or provenance indications produced by the AGS;
+. the human review performed; and
+. the tests, comparisons, research, or other validation performed.
+
+Documentation MUST be sufficiently specific for a reasonable reviewer to
+understand the role of Material Assistance and evaluate the Contributor's
+review. A statement such as "AI was used" does not satisfy P2.
+
+P2 does not require verbatim prompt or conversation logs unless the Project
+Policy expressly requires them. A summary MAY be used when it supplies the
+required information without disclosing confidential information, credentials,
+personal data, or protected security information.
+
+The Contributor MUST NOT include protected information merely to satisfy P2.
+When required Documentation cannot be provided safely or lawfully, the
+Contributor MUST identify the omission and provide the greatest non-sensitive
+description reasonably available. The Project determines whether the remaining
+record is sufficient for acceptance.
+
+The Project MUST preserve required P2 Documentation with the Contribution or
+its review record for at least as long as the Project preserves the associated
+contribution history, unless legal, privacy, security, or records-management
+requirements require earlier removal.
+
+Removal of protected information from a public record does not itself create
+nonconformance when the Project preserves enough non-sensitive information to
+support the applicable conformance claim.
+
+=== P3 -- Controlled
+
+P3 incorporates P0 through P2 and requires the Project to impose and publish
+substantive controls on Material Assistance.
+
+The Project Policy MUST identify:
+
+. the categories of Contributions or Project areas in which Material
+  Assistance is permitted, conditional, or prohibited;
+. restrictions applicable to AGS products, services, models, tools, features,
+  or modes of operation;
+. requirements for handling Project-confidential, personal, security-sensitive,
+  licensed, or other protected input;
+. any required approval, additional review, testing, isolation, or provenance
+  procedure;
+. any permitted exception process; and
+. the consequences and corrective process for noncompliance.
+
+P3 requires at least one substantive constraint beyond P2 Disclosure and
+Documentation. A substantive constraint limits whether, where, or how Material
+Assistance may be used or requires an additional safeguard before acceptance.
+
+Examples of substantive constraints include:
+
+* permitting only locally operated or Project-approved systems;
+* prohibiting protected Project material from being supplied to an external
+  system;
+* prohibiting Material Assistance for security-critical or designated
+  components;
+* requiring approval before Material Assistance is used in designated areas;
+* requiring specified provenance checks or independent review; or
+* requiring additional validation for AGS-affected material.
+
+The examples are informative. A Project MAY adopt other substantive controls
+consistent with this Standard.
+
+The Contributor MUST comply with every P3 control applicable to the Covered
+Contribution. Disclosure of a violation does not cure the violation.
+
+An exception conforms only when the Project Policy expressly permits it and
+the exception satisfies the exception requirements of this Standard. The
+Project MUST document the scope, justification, and approval of each exception.
+
+=== P4 -- No Material Assistance
+
+P4 incorporates the accountability requirements of P0 and the classification
+rules of this section. It expressly replaces the permission under P1 through P3
+to submit Contributions made with Material Assistance.
+
+A Contributor MUST NOT use Material Assistance in preparing a Covered
+Contribution. AGS use is permitted only when it satisfies the definition of
+Incidental Assistance.
+
+Disclosure or Documentation of Material Assistance does not make the
+Contribution conform to P4. A Project-specific exception MUST NOT permit
+Material Assistance while the Project claims P4 conformance for the affected
+scope.
+
+When actual or suspected Material Assistance is discovered, the Contributor
+MUST disclose it to the Project for investigation. This corrective Disclosure
+does not make the affected Contribution conforming, but it satisfies the duty
+not to conceal the suspected nonconformance.
+
+The Project MUST NOT accept a Contribution under P4 while it knows that the
+Contribution was prepared with Material Assistance. The Project MAY permit a
+new or replacement Contribution prepared through a process that independently
+satisfies P4.
+
+P4 does not prohibit conventional non-generative tools, ordinary accessibility
+tools, non-generative reference materials, or Incidental Assistance.
+
+The name "No Material Assistance" describes the ZACS profile requirement. It
+does not determine legal authorship, copyrightability, originality, or
+ownership.
+
+=== Profile comparison
+
+[cols="2,1,1,1,1,1",options="header"]
+|===
+|Requirement |P0 |P1 |P2 |P3 |P4
+
+|Identifiable human accountability
+|Yes |Yes |Yes |Yes |Yes
+
+|Personal review and sufficient understanding
+|Yes |Yes |Yes |Yes |Yes
+
+|Material Assistance permitted by ZACS
+|Yes |Yes |Yes |Conditional |No
+
+|Material Assistance Disclosure
+|No |Yes |Yes |Yes |Corrective only
+
+|Material Assistance Documentation
+|No |No |Yes |Yes |Not applicable
+
+|Published substantive Project controls
+|No |No |No |Yes |Prohibition
+
+|Incidental Assistance permitted by ZACS
+|Yes |Yes |Yes |Yes |Yes
+|===
+
+"No" in this table means the identified requirement is not imposed by that
+profile. It does not prohibit a Project from adopting a stricter compatible
+requirement.
