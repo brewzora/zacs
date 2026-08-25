@@ -1,0 +1,249 @@
+== Verification Profiles
+
+=== Purpose and selection
+
+Verification Profiles define progressively stronger Project procedures for
+obtaining Evidence of Contributor accountability, review, and understanding.
+
+A conforming Project MUST select exactly one Verification Profile. The selected
+profile incorporates every lower-numbered Verification Profile, subject only
+to an express replacement stated in this section.
+
+[cols="1,2,5",options="header"]
+|===
+|Profile |Name |Core requirement
+
+|V0
+|Attested
+|The Project obtains and preserves an Attestation from the identifiable human
+Contributor.
+
+|V1
+|Reviewed
+|An independent human reviewer evaluates the Contribution, Attestation, and
+required provenance records.
+
+|V2
+|Demonstrated
+|The Contributor demonstrates relevant understanding without Contemporaneous
+Generative Assistance.
+|===
+
+=== Common verification requirements
+
+The Project MUST publish a Verification Procedure sufficient to implement its
+selected Verification Profile. The procedure MUST identify:
+
+. when Verification occurs;
+. who may perform it;
+. what material and records are reviewed;
+. the possible outcomes;
+. how deficiencies may be corrected or reconsidered; and
+. what Evidence the Project preserves.
+
+Verification MUST be applied to Covered Contributions according to objective
+criteria published by the Project. A Project MAY vary the depth of a procedure
+according to Contribution size, risk, subject matter, or Contributor history
+when the Project Policy describes the basis for doing so.
+
+A Project MUST NOT claim that Automated Review alone satisfies a requirement
+for Human Review or demonstrated human understanding.
+
+The Project SHOULD conduct Verification in a manner proportionate to the
+Contribution and SHOULD avoid requesting confidential information, credentials,
+personal data, or protected security information that is not necessary for the
+procedure.
+
+Verification supplies Evidence for a conformance decision. It does not prove
+that an Attestation is true or that a Contribution is lawful, original,
+correct, or secure.
+
+=== V0 -- Attested
+
+V0 establishes the minimum Verification requirements for every ZACS adoption.
+
+Before accepting a Covered Contribution, the Project MUST obtain the
+Attestation required by this Standard from the identifiable human Contributor.
+
+The Attestation MUST:
+
+. be an affirmative act rather than an assumption based only on submission;
+. be attributable to the Contributor;
+. identify or be reliably associated with the Covered Contribution;
+. identify the applicable Adoption Identifier or a Project Policy that states
+  it;
+. contain or incorporate the assurances required by the selected Provenance
+  Profile; and
+. be preserved with the Contribution or its review record.
+
+A checkbox, signed statement, commit trailer, pull-request declaration, or
+other recorded mechanism MAY satisfy V0 when it meets every requirement above.
+
+Silence, a preselected control, or a statement made solely by an automated
+system MUST NOT constitute the Contributor's Attestation.
+
+The Project MUST provide a reasonably accessible method for correcting or
+withdrawing an Attestation. Correction does not erase the prior record when
+preservation is necessary to understand the Contribution's review history.
+
+V0 does not require the Project to independently confirm every fact asserted in
+the Attestation. It requires an attributable, affirmative, and preserved human
+Attestation.
+
+=== V1 -- Reviewed
+
+V1 incorporates V0 and requires independent Human Review.
+
+Before accepting a Covered Contribution, at least one identifiable human other
+than the Contributor MUST perform the required Human Review. The reviewer MUST
+not have prepared the Contribution jointly in a manner that would prevent an
+independent evaluation of the Contributor's Attestation and provenance records.
+
+The Project Policy MUST identify how reviewer independence and material
+conflicts of interest are handled.
+
+The reviewer MUST:
+
+. examine the complete Covered Contribution;
+. examine the Contributor's Attestation;
+. examine each Disclosure and item of Documentation required by the selected
+  Provenance Profile;
+. evaluate whether the records are complete and internally consistent;
+. consider visible indications of undisclosed Material Assistance, Known
+  Source Material, or incompatible provenance;
+. evaluate whether the Contributor's described review and validation are
+  reasonably appropriate to the Contribution; and
+. record a review outcome and any unresolved material concern.
+
+The reviewer MAY use Automated Review, search tools, provenance tools, license
+scanners, testing systems, and other aids. The reviewer remains responsible for
+the Human Review and MUST personally evaluate material results on which the
+review outcome relies.
+
+When the reviewer identifies a material omission, inconsistency, or concern,
+the Project MUST obtain clarification or corrective action before acceptance.
+The Project MUST NOT treat an unresolved material concern as satisfying V1.
+
+V1 does not require a reviewer to reproduce every test, independently prove
+ownership, or guarantee the Contribution. The depth of review MUST nevertheless
+be reasonable for the size, complexity, risk, and nature of the Contribution.
+
+The Project MUST preserve:
+
+. the identity or durable Project identity of the reviewer;
+. the review outcome;
+. the material records reviewed;
+. material questions, concerns, and resolutions; and
+. the date or objectively determinable review event.
+
+=== V2 -- Demonstrated
+
+V2 incorporates V0 and V1 and requires the Contributor to demonstrate relevant
+understanding to an independent human reviewer.
+
+The demonstration MUST occur before acceptance and MUST be sufficient for the
+reviewer to reasonably evaluate whether the Contributor understands the
+Covered Contribution to the degree required by P0.
+
+The Verification Procedure MUST require questions, explanations, modification
+tasks, debugging tasks, or another reasonable method addressing material
+aspects of the Contribution. As applicable, the procedure MUST address:
+
+. the Contribution's purpose and methodology;
+. material design or implementation decisions;
+. behavior, operation, and limitations;
+. provenance and Known Source Material;
+. the role of disclosed Material Assistance;
+. review and validation performed;
+. material correctness, security, privacy, or licensing risks; and
+. how the Contributor would maintain, revise, or correct the Contribution.
+
+The procedure need not address every listed subject when a subject is not
+applicable or material to the Contribution. The reviewer MUST select enough
+relevant subjects to support the review outcome.
+
+The Contributor MUST respond from their own understanding and MUST NOT use
+Contemporaneous Generative Assistance while preparing or providing a response
+that is part of the demonstration.
+
+The Contributor MAY use ordinary accessibility tools, non-generative reference
+materials, and conventional non-generative translation tools. The Project MUST
+provide a reasonable accessible alternative when the default procedure would
+prevent a Contributor with a disability or communication limitation from
+demonstrating the same relevant understanding.
+
+The demonstration MAY occur through asynchronous text, synchronous text,
+voice, video, screen sharing, an interactive development environment, or
+another method that permits meaningful evaluation. A Project MUST NOT require
+voice or video when another method can provide materially equivalent Evidence.
+
+The procedure MUST evaluate understanding of the Contribution rather than
+unrelated memory, accent, language fluency, speed, personality, educational
+credentials, or performance under unnecessary pressure.
+
+The reviewer MAY ask reasonable follow-up questions and MAY request a focused
+explanation or modification when an initial response is incomplete. The
+reviewer MUST NOT demand unnecessary disclosure of confidential information,
+credentials, personal data, protected security information, or verbatim AGS
+conversation logs.
+
+The reviewer MUST record whether the demonstration was satisfactory and MUST
+record enough information to identify the subjects evaluated and the basis for
+the outcome. The Project MAY preserve a written summary instead of an audio or
+video recording.
+
+A Contributor who does not demonstrate sufficient understanding MAY revise the
+Contribution, improve their understanding, and repeat the procedure unless the
+Project Policy provides a reasonable basis for another outcome. The Covered
+Contribution MUST NOT be accepted under V2 until the demonstration is
+satisfactory.
+
+An employer, organization, or other representative MUST NOT substitute another
+person's understanding for that of the Contributor making the Attestation.
+
+=== Suspected procedural assistance or misrepresentation
+
+When a reviewer has a reasonable, articulable basis to suspect prohibited
+Contemporaneous Generative Assistance or material misrepresentation, the
+reviewer MAY request clarification or repeat relevant portions of the
+Verification Procedure through another accessible method.
+
+Suspicion MUST NOT be based solely on writing style, disability, use of an
+accessibility tool, language proficiency, response speed, or disagreement with
+the reviewer.
+
+The Project SHOULD distinguish a good-faith mistake or misunderstanding from
+intentional concealment. Any corrective or enforcement action MUST follow the
+published Project Policy and SHOULD be proportionate to the available Evidence.
+
+=== Profile comparison
+
+[cols="3,1,1,1",options="header"]
+|===
+|Requirement |V0 |V1 |V2
+
+|Affirmative human Attestation
+|Yes |Yes |Yes
+
+|Attestation preserved
+|Yes |Yes |Yes
+
+|Independent Human Review
+|No |Yes |Yes
+
+|Review of required provenance records
+|No |Yes |Yes
+
+|Contributor demonstrates understanding
+|No |No |Yes
+
+|Contemporaneous Generative Assistance prohibited during demonstration
+|Not applicable |Not applicable |Yes
+
+|Accessible equivalent procedure required
+|General accessibility |General accessibility |Yes
+|===
+
+"No" in this table means the identified requirement is not imposed by that
+profile. It does not prohibit a Project from adopting a stricter compatible
+requirement.
