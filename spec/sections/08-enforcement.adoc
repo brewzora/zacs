@@ -6,9 +6,11 @@ This section establishes minimum procedures for responding to suspected or
 confirmed ZACS nonconformance. It does not prescribe a universal disciplinary
 system or require a Project to accept any Contribution.
 
-For purposes of this section, nonconformance means failure to satisfy an
-applicable requirement of the adopted ZACS profiles, this Standard, or a
-Project-specific requirement incorporated through the Project Policy.
+For purposes of this section, ZACS nonconformance means failure to satisfy an
+applicable requirement of the adopted ZACS profiles or this Standard. Failure
+to satisfy a Project-specific requirement is a Project Policy violation unless
+that requirement implements a control required for ZACS conformance. A Project
+MUST distinguish the two in its records and public claims.
 
 The primary purposes of enforcement are to:
 
@@ -92,8 +94,10 @@ longer than reasonably necessary to manage the identified risk.
 
 === Notice and opportunity to respond
 
-Before making a material adverse determination, the Project MUST ordinarily
-provide the Contributor with:
+Before making a material adverse determination, the Project MUST provide the
+Contributor with the following process, except to the extent that a
+circumstance listed in the following paragraph reasonably requires delay or
+limitation:
 
 . notice of the material concern;
 . enough non-protected information to understand and respond to it;
@@ -143,7 +147,8 @@ reconsideration process required by this section.
 === Determinations
 
 The Project MUST base a material determination on the available Evidence and
-record one of the following or a substantively equivalent outcome:
+record one or more of the following outcomes, with explanatory detail where
+needed:
 
 * no nonconformance found;
 * insufficient Evidence to determine;
@@ -154,7 +159,9 @@ record one of the following or a substantively equivalent outcome:
 
 A finding of insufficient Evidence is not a finding that the Contribution
 conformed. The Project determines whether the remaining uncertainty permits
-acceptance under its selected profiles and other applicable policies.
+acceptance only when its selected profiles permit acceptance in the presence
+of that uncertainty. This discretion does not override a requirement, such as
+V1's treatment of an unresolved material concern, that prevents acceptance.
 
 A determination MUST distinguish the status of the Contribution from any
 decision affecting the Contributor's participation. A nonconforming
