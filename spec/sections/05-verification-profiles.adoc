@@ -166,11 +166,12 @@ The Contributor MUST respond from their own understanding and MUST NOT use
 Contemporaneous Generative Assistance while preparing or providing a response
 that is part of the demonstration.
 
-The Contributor MAY use ordinary accessibility tools, non-generative reference
-materials, and conventional non-generative translation tools. The Project MUST
-provide a reasonable accessible alternative when the default procedure would
-prevent a Contributor with a disability or communication limitation from
-demonstrating the same relevant understanding.
+The Contributor MAY use accessibility tools within the functional limit stated
+in the definition of Contemporaneous Generative Assistance, non-generative
+reference materials, and conventional non-generative translation tools. The
+Project MUST provide a reasonably accessible alternative when the default
+procedure would prevent a Contributor with a disability or communication
+limitation from demonstrating the same relevant understanding.
 
 The demonstration MAY occur through asynchronous text, synchronous text,
 voice, video, screen sharing, an interactive development environment, or
