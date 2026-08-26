@@ -6,7 +6,8 @@ The Contribution Attestation records the assurances made by the identifiable
 human Contributor for a Covered Contribution. It supplies Evidence required by
 V0 and inherited by every higher Verification Profile.
 
-An Attestation is a statement by the Contributor. It is not independent proof of the matters stated and does not make the Project a certifying body.
+An Attestation is a statement by the Contributor. It is not independent proof
+of the matters stated and does not make the Project a certifying body.
 
 === Required association
 
@@ -24,12 +25,17 @@ Adoption Identifier, and submitted or authorized by the same Contributor.
 
 === Standard Attestation
 
-The Project MUST obtain the following core Attestation and the applicable Provenance Profile statement before accepting a Covered Contribution.
+The Project MUST obtain the following Core Attestation and applicable
+Provenance Profile statement before accepting a Covered Contribution.
 
 The Project MAY adapt formatting, field labels, pronouns, or presentation to
-its submission system. It MAY translate the Attestation or incorporate it by a
-clear reference to an accessible copy. It MUST NOT omit an applicable statement
-or alter its substantive meaning while claiming ZACS conformance.
+its submission system. It MAY incorporate the Attestation by a clear reference
+to an accessible copy. A translation MUST faithfully communicate every
+applicable statement, identify the language and ZACS version translated, and
+state that the English text of the Official ZACS Publication controls if the
+meanings conflict. The Project MUST NOT omit, combine, qualify, or alter an
+applicable assurance while claiming ZACS conformance. Project-specific
+assurances MUST be separately identified.
 
 ==== Identification
 
@@ -42,8 +48,8 @@ The Attestation record MUST identify:
 
 ==== Core Attestation text
 
-The Contributor MUST affirm statements substantively equivalent to the
-following:
+The Contributor MUST affirm the following statements, subject only to the
+permitted presentation and translation changes above:
 
 . I am the identifiable human Contributor responsible under ZACS for this
   Contribution, whether I submit it personally or on behalf of another person
@@ -57,8 +63,10 @@ following:
 . I reasonably believe that I, or the person or organization on whose behalf I
   submit, have the right to submit the Contribution under the Project's
   applicable terms.
-. I have not knowingly concealed Known Source Material or material provenance
-  information relevant to the Project's rights or obligations.
+. I have disclosed Known Source Material and material provenance information
+  relevant to the Project's rights or obligations unless it is already clearly
+  identified in the Contribution or its preserved notices, and I have not
+  knowingly concealed Third-Party Material or its source.
 . I have preserved copyright, license, attribution, and other notices required
   for material included in the Contribution.
 . I have made the Disclosures and supplied the Documentation required by the
@@ -106,20 +114,23 @@ For P2, the Contributor MUST additionally affirm:
 
 For P3, the Contributor MUST additionally affirm:
 
-* I have disclosed and documented each known use of Material Assistance and
-  complied with every applicable Project control. I have identified every
-  approved exception and every known deviation from those controls.
+* I have disclosed and documented each known use of Material Assistance,
+  complied with every applicable Project control, identified every approved
+  exception, and have no known unapproved deviation from those controls.
 
-An admitted deviation does not make a nonconforming Contribution conforming.
-The statement ensures that the deviation is not concealed and permits the
-Project to apply its corrective process.
+A known or suspected deviation MUST be reported separately through the
+Project's correction or enforcement process. The Contributor MUST NOT make the
+P3 Attestation until the deviation is corrected, determined not to be a
+deviation, or covered by an approved exception permitted under P3.
 
 ==== P4 statement
 
 For P4, the Contributor MUST additionally affirm:
 
-* I did not use Material Assistance in preparing this Contribution. Any AGS use
-  in its preparation satisfied the definition of Incidental Assistance.
+* To the best of my knowledge after reasonable inquiry, this Contribution was
+  not prepared with Material Assistance. I did not use Material Assistance in
+  preparing it, and any AGS use in its preparation satisfied the definition of
+  Incidental Assistance.
 
 Disclosure or Documentation of Material Assistance MUST NOT replace the P4
 statement or cure P4 nonconformance.
