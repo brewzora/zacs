@@ -83,10 +83,10 @@ For purposes of ZACS, an Attestation MUST be made by an identifiable human. An
 Automated Generative System cannot make an Attestation or satisfy a requirement
 assigned to a Contributor.
 
-A human MAY submit a Contribution on behalf of an organization. The organization
-may own or control rights in the Contribution, but the identifiable human making
-the Attestation remains responsible for satisfying the Contributor requirements
-of the adopted profiles.
+A human MAY submit a Contribution on behalf of an organization. The
+organization may own or control rights in the Contribution, but the
+identifiable human making the Attestation remains responsible for satisfying
+the Contributor requirements of the adopted profiles.
 
 ZACS does not determine the legal authorship or ownership of a Contribution.
 
