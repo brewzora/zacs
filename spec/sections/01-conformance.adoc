@@ -5,7 +5,9 @@
 The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT",
 "SHOULD", "SHOULD NOT", "RECOMMENDED", "NOT RECOMMENDED", "MAY", and
 "OPTIONAL" in this document are to be interpreted as described in BCP 14,
-RFC 2119 and RFC 8174, when, and only when, they appear in all capitals as
+https://www.rfc-editor.org/rfc/rfc2119[RFC 2119], and
+https://www.rfc-editor.org/rfc/rfc8174[RFC 8174], when, and only when, they
+appear in all capitals as
 shown here.
 
 Lowercase uses of these words have their ordinary meanings.
@@ -28,6 +30,10 @@ order:
 For example:
 
 `ZACS-0.1-draft-P2-V1`
+
+The canonical form uses uppercase `ZACS`, `P`, and `V`, the version component
+stated in the publication header, and no spaces. Adoption Identifiers are
+case-sensitive and MUST be reproduced exactly in conformance claims.
 
 Profile identifiers from different ZACS versions MUST NOT be combined in one
 Adoption Identifier.
