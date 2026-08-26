@@ -57,9 +57,11 @@ Rights applicable to a Contribution arise, if at all, through the Project's
 license, contribution terms, CLA, DCO process, employment or contractor terms,
 or another applicable agreement or legal rule.
 
-A Project MUST maintain any license or rights-acquisition process it requires
-separately from ZACS. A Project MUST NOT represent the ZACS Attestation as a
-CLA, copyright assignment, patent license, or DCO.
+A Project MUST keep any required license or rights-acquisition process legally
+distinct from ZACS and MUST NOT rely on ZACS as the source of that grant. The
+Project MUST NOT represent the ZACS Attestation as a CLA, copyright assignment,
+patent license, or DCO. A legally distinct instrument MAY be collected through
+the same workflow when its terms and effect remain separately identifiable.
 
 === Relationship to the Developer Certificate of Origin
 
@@ -158,10 +160,11 @@ ZACS does not authorize collection, use, disclosure, retention, or transfer of
 personal data, confidential information, credentials, trade secrets, privileged
 material, or protected security information.
 
-Projects and Contributors MUST comply with applicable law and separate duties
-governing such material. A Project SHOULD design Disclosure, Documentation,
-Verification, and enforcement procedures to collect no more protected
-information than reasonably necessary.
+Nothing in ZACS authorizes noncompliance with applicable law or separate duties
+governing such material. Projects and Contributors remain independently
+responsible for those obligations. A Project SHOULD design Disclosure,
+Documentation, Verification, and enforcement procedures to collect no more
+protected information than reasonably necessary.
 
 When public disclosure is unsafe, unlawful, or prohibited, a Project MAY use a
 protected mechanism consistent with the adopted profile. Use of a protected
