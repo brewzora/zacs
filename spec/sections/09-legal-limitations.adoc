@@ -1,0 +1,235 @@
+== Legal and Reliance Limitations
+
+=== Nature of this Standard
+
+ZACS is a voluntary contribution-governance standard. It defines conformance
+requirements for Projects that choose to adopt it.
+
+Publication of this Standard does not compel any person or Project to adopt it.
+Reference to ZACS, without a conforming Adoption Notice and implementation,
+does not establish ZACS conformance.
+
+This Standard does not determine whether an Adoption Notice, Project Policy,
+Attestation, or contribution workflow forms a contract. That question depends
+on the applicable facts, terms, and law.
+
+=== No legal or professional advice
+
+This Standard and its accompanying documentation provide general standards
+information. They do not provide legal, regulatory, security, privacy,
+employment, tax, accounting, or other professional advice and do not create an
+attorney-client or other professional relationship.
+
+A Project or Contributor remains responsible for obtaining qualified advice
+appropriate to its jurisdiction, risks, obligations, and intended use.
+
+ZACS conformance MUST NOT be represented as a substitute for legal review,
+license review, security review, privacy assessment, regulatory analysis, or
+other professional due diligence.
+
+=== No determination of legal status
+
+ZACS does not determine:
+
+* whether a human, organization, or automated system is an author or inventor;
+* whether material is protected by copyright, patent, trademark, trade-secret,
+  database, publicity, privacy, contract, or other rights;
+* ownership, work-made-for-hire status, agency, authorization, or employment
+  status;
+* copyrightability, patentability, originality, substantial similarity,
+  infringement, fair use, fair dealing, or another exception or limitation;
+* whether a license is valid, enforceable, compatible, or sufficient for a
+  particular use;
+* the provenance, contents, or legal status of model training data; or
+* whether generated or transformed material is free of third-party rights.
+
+Terms such as `Contributor`, `Human Review`, `Material Assistance`, and
+`No Material Assistance` have the meanings assigned by this Standard. They do
+not establish a legal conclusion outside ZACS.
+
+=== No grant or transfer of Contribution rights
+
+Adoption of ZACS and completion of a ZACS Attestation do not grant, transfer,
+assign, sublicense, or waive copyright, patent, trademark, trade-secret, or
+other rights in a Contribution.
+
+Rights applicable to a Contribution arise, if at all, through the Project's
+license, contribution terms, CLA, DCO process, employment or contractor terms,
+or another applicable agreement or legal rule.
+
+A Project MUST maintain any license or rights-acquisition process it requires
+separately from ZACS. A Project MUST NOT represent the ZACS Attestation as a
+CLA, copyright assignment, patent license, or DCO.
+
+=== Relationship to the Developer Certificate of Origin
+
+ZACS is designed to complement the unmodified Developer Certificate of Origin
+(DCO). It does not amend, replace, interpret, or expand the DCO.
+
+A Project MAY collect a ZACS Attestation and DCO sign-off through the same
+workflow, but each instrument MUST remain identifiable and the Project MUST NOT
+represent modified DCO wording as the unmodified DCO.
+
+Satisfying ZACS does not establish DCO compliance, and satisfying the DCO does
+not establish ZACS compliance.
+
+=== License for the ZACS publication
+
+The copyright license governing this Standard and its documentation is stated
+in the publication and repository license notice. Unless otherwise stated, the
+ZACS specification and documentation are licensed under the Creative Commons
+Attribution 4.0 International Public License (CC BY 4.0):
+
+https://creativecommons.org/licenses/by/4.0/[CC BY 4.0]
+
+The CC BY 4.0 legal code controls the permissions, conditions, disclaimers, and
+limitations applicable under that license. This section does not modify the
+license, impose an additional copyright restriction, or limit a use otherwise
+permitted by law.
+
+CC BY 4.0 does not license patent or trademark rights. Any such permission must
+arise separately.
+
+=== Patents
+
+ZACS does not require a Contributor, Project, implementer, or standards
+participant to grant a patent license merely by discussing, proposing,
+adopting, implementing, or contributing to this Standard.
+
+No representation is made that practicing ZACS or implementing related tooling
+is free of patent claims. Patent rights and obligations, if any, depend on
+separate licenses, policies, agreements, and applicable law.
+
+A future patent policy applies only according to its own terms and MUST NOT be
+treated as retroactively granted by this edition of ZACS unless the affected
+rights holder expressly agrees.
+
+=== Trademarks and official status
+
+The copyright license for this Standard does not grant permission to use ZACS
+names, logos, badges, or other trademarks except as permitted by the applicable
+trademark policy or law.
+
+Permission to copy, modify, or distribute the specification does not make a
+modified work an Official ZACS Publication and does not authorize a claim of
+sponsorship, endorsement, certification, or approval.
+
+Projects and derivative-standard publishers remain responsible for complying
+with the ZACS trademark policy and accurately distinguishing official,
+unmodified publications from independent modifications.
+
+=== Attestations and Evidence
+
+An Attestation is a statement by an identifiable human. Disclosure,
+Documentation, review, testing, demonstration, and other Verification records
+are forms of Evidence.
+
+No such record independently guarantees:
+
+* the identity, authority, or legal capacity of a person;
+* authorship, ownership, originality, or lawful provenance;
+* accuracy or completeness of a Disclosure or Attestation;
+* license compatibility or absence of infringement;
+* correctness, security, privacy, accessibility, or maintainability; or
+* fitness for a particular purpose.
+
+Projects remain responsible for deciding what additional diligence is
+appropriate. Contributors remain responsible for the truth and completeness of
+their statements to the extent required by applicable Project terms and law.
+
+=== Automated detection and technical limitations
+
+No automated authorship detector, similarity detector, provenance tool,
+license scanner, security scanner, model-identification system, or comparable
+technology is assumed to be conclusive under ZACS.
+
+Automated tools may produce false positives, false negatives, incomplete
+results, or results that require contextual interpretation. A Project MUST
+follow the Human Review and enforcement requirements of its adopted profiles
+before relying on material automated results for a ZACS determination.
+
+ZACS does not warrant the availability, accuracy, interoperability, or
+continued behavior of any third-party system, service, model, registry, URL, or
+tool referenced by a Project.
+
+=== Privacy, confidentiality, and protected information
+
+ZACS does not authorize collection, use, disclosure, retention, or transfer of
+personal data, confidential information, credentials, trade secrets, privileged
+material, or protected security information.
+
+Projects and Contributors MUST comply with applicable law and separate duties
+governing such material. A Project SHOULD design Disclosure, Documentation,
+Verification, and enforcement procedures to collect no more protected
+information than reasonably necessary.
+
+When public disclosure is unsafe, unlawful, or prohibited, a Project MAY use a
+protected mechanism consistent with the adopted profile. Use of a protected
+mechanism does not permit omission of the required non-sensitive substance.
+
+=== Accessibility, employment, and organizational policy
+
+ZACS does not define an employment qualification, professional credential, or
+medical, disability, or educational assessment.
+
+Projects remain responsible for applicable accessibility,
+anti-discrimination, labor, employment, contractor, collective-bargaining, and
+accommodation obligations.
+
+An organization MAY impose internal requirements stricter than ZACS, but it
+MUST distinguish those requirements from the unmodified Standard when making a
+ZACS conformance claim.
+
+=== Regulatory and contractual compliance
+
+ZACS conformance does not establish compliance with any statute, regulation,
+court order, government requirement, procurement rule, industry code,
+contract, insurance condition, or platform policy.
+
+Conversely, compliance with another legal, contractual, regulatory, or policy
+requirement does not establish ZACS conformance.
+
+A party subject to multiple requirements remains responsible for satisfying
+each applicable requirement. When requirements conflict, the party SHOULD seek
+qualified advice and MUST NOT conceal the unresolved conflict in a ZACS
+conformance claim.
+
+=== No endorsement of third parties
+
+Reference to a person, organization, Project, product, service, license,
+standard, model, tool, or publication is for identification or explanation
+unless expressly stated otherwise. A reference does not imply sponsorship,
+endorsement, certification, approval, affiliation, or warranty.
+
+Adoption of ZACS by a Project does not imply endorsement of that Project by the
+ZACS steward, and participation in ZACS development does not imply endorsement
+of every ZACS provision or adopter.
+
+=== Disclaimer of warranties
+
+To the extent permitted by applicable law and except as separately undertaken
+in writing, this Standard and its accompanying materials are provided on an
+"as-is" and "as-available" basis, without representations or warranties of any
+kind.
+
+The applicable CC BY 4.0 license contains its own disclaimer of warranties and
+limitation of liability. Where a disclaimer or limitation is not permitted in
+full or in part, it applies only to the extent permitted by applicable law.
+
+No ZACS publication, profile, example, implementation guide, validation tool,
+badge, or conformance record warrants that a Contribution or Project is lawful,
+original, correct, secure, private, accessible, maintainable, or fit for a
+particular purpose.
+
+=== Mandatory law and jurisdiction
+
+ZACS does not select a governing law, court, arbitral forum, or jurisdiction
+for a Project, Contributor, Contribution, or adoption.
+
+Nothing in this Standard requires a person to violate applicable law or a
+binding legal order. A requirement that cannot lawfully be applied in a
+particular context does not authorize an inaccurate or unqualified conformance
+claim.
+
+Rights and obligations that cannot lawfully be excluded, limited, waived, or
+transferred remain unaffected to the extent required by applicable law.

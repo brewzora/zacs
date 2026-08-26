@@ -1,8 +1,8 @@
 = Zero Ambiguity Contribution Standard
-ifndef::zacs-version[:zacs-version: development]
-ifndef::zacs-status[:zacs-status: working draft]
-ifndef::zacs-identifier[:zacs-identifier: zacs-development]
-ifndef::publication-date[:publication-date: unpublished]
+ifndef::zacs-version[:zacs-version: 0.1]
+ifndef::zacs-status[:zacs-status: draft]
+ifndef::zacs-identifier[:zacs-identifier: zacs-0.1-draft]
+ifndef::publication-date[:publication-date: 2026-08-25]
 :toc: left
 :toclevels: 3
 :sectnums:
@@ -41,3 +41,5 @@ include::spec/sections/06-attestation.adoc[]
 include::spec/sections/07-adoption.adoc[]
 
 include::spec/sections/08-enforcement.adoc[]
+
+include::spec/sections/09-legal-limitations.adoc[]
