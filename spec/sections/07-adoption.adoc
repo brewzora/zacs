@@ -1,0 +1,282 @@
+== Adoption
+
+=== Adoption model
+
+A Project adopts ZACS by publishing an Adoption Notice that satisfies this
+section and by implementing the requirements of the identified Provenance and
+Verification Profiles.
+
+Adoption is self-declared unless a separate authorized assessment program
+expressly states otherwise. Publication of an Adoption Notice does not, by
+itself, establish conformance.
+
+A Project does not need to add multiple ZACS-specific files. The Adoption
+Notice, Project Policy, disclosure instructions, Verification Procedure, and
+Project-specific guidance MAY appear in one reasonably accessible document.
+
+Suitable locations may include:
+
+* `ZACS.md`;
+* `CONTRIBUTING.md`;
+* a repository policy document;
+* a contribution portal or issue-form policy;
+* an internal policy available to Contributors in a private Project; or
+* another location presented to Contributors before or during submission.
+
+The filename does not affect conformance. Accessibility and completeness of the
+published information determine whether the adoption requirements are met.
+
+=== Required Adoption Notice contents
+
+An Adoption Notice MUST identify:
+
+. the Project name;
+. the complete Adoption Identifier;
+. a Normative Specification Reference;
+. the adoption scope;
+. the Effective Date;
+. the location of the applicable Project Policy;
+. the Disclosure Mechanism;
+. the Verification Procedure;
+. any Project-specific requirements;
+. any exception process permitted by the selected profiles; and
+. a contact or reporting mechanism for questions and suspected nonconformance.
+
+When an item is contained in the same document as the Adoption Notice, the
+notice MAY identify the applicable heading instead of another file or URL.
+
+If the selected profile does not permit or require an exception process, the
+Adoption Notice MUST state that no exceptions are permitted or identify the
+applicable unconditional rule.
+
+=== Normative Specification Reference
+
+The Adoption Notice MUST provide a reasonably accessible reference to the
+complete, unmodified Official ZACS Publication identified by its version.
+
+The Project MUST satisfy this requirement by providing either:
+
+* a permanent, version-specific URL published by the ZACS steward; or
+* an included unmodified copy of an official release artifact.
+
+A moving URL or reference such as `latest`, `current`, `main`, or `most recent`
+MUST NOT be the normative reference. A Project MAY additionally provide such a
+link for convenience when it is clearly identified as non-normative.
+
+When a local copy is used, the Project MUST:
+
+. identify the original ZACS version and source;
+. preserve the complete specification, copyright, license, and trademark
+  notices;
+. avoid inserting Project-specific requirements into the specification text;
+  and
+. make the local copy reasonably accessible wherever the Adoption Notice is
+  used.
+
+The Project SHOULD verify a local copy against a checksum published with the
+official release. Renaming an official artifact does not itself modify the
+specification, but the Project MUST NOT use a filename or presentation that
+misrepresents its version or official status.
+
+A Project MAY include an officially published Markdown, AsciiDoc, HTML, plain
+text, or PDF edition. A Project-generated format conversion is not an
+unmodified official artifact unless the ZACS steward has designated that
+converted edition as official for the identified version.
+
+=== Standard Adoption Notice
+
+A conforming Project MUST publish an Adoption Notice containing every item in
+the following template. Formatting and explanatory language MAY change, but no
+required field or assurance may be omitted or materially weakened:
+
+[source,text]
+----
+ZACS Adoption Notice
+
+Project: [PROJECT NAME]
+Adoption Identifier: [EXACT ZACS ADOPTION IDENTIFIER]
+Normative Specification: [PERMANENT VERSION URL OR LOCAL OFFICIAL COPY]
+Scope: [COVERED CONTRIBUTIONS, REPOSITORIES, BRANCHES, OR WORKFLOWS]
+Effective Date: [DATE, TIME, OR OBJECTIVELY DETERMINABLE EVENT]
+Project Policy: [URL, FILE, OR HEADING]
+Disclosure Mechanism: [URL, FILE, FORM, FIELD, OR OTHER MECHANISM]
+Verification Procedure: [URL, FILE, OR HEADING]
+Project-Specific Requirements: [LOCATION OR "NONE"]
+Exceptions: [PROCESS AND LOCATION OR "NONE"]
+Contact: [REPORTING OR CONTACT MECHANISM]
+
+The [PROJECT NAME] Project adopts [ADOPTION IDENTIFIER] for the scope stated
+above. Covered Contributions submitted on or after the Effective Date are
+subject to the identified ZACS profiles and Project Policy.
+
+This adoption is self-declared. It does not imply that the ZACS steward has
+audited, certified, approved, sponsored, or endorsed this Project.
+----
+
+The bracketed fields MUST be replaced with Project-specific information. A
+Project MUST NOT publish unresolved placeholders in an operative Adoption
+Notice.
+
+The Project MAY change formatting or integrate the fields into an existing
+policy document, provided every required item remains clear and reasonably
+accessible.
+
+=== Compact Adoption Notice
+
+A Project MAY use the following compact form when all referenced information is
+available through the linked Project Policy:
+
+[source,text]
+----
+The [PROJECT NAME] Project adopts [ADOPTION IDENTIFIER] for [SCOPE], effective
+[EFFECTIVE DATE]. The complete, unmodified normative specification is available
+at [PERMANENT VERSION URL OR LOCAL OFFICIAL COPY]. Project procedures,
+Disclosure, Verification, stricter requirements, exceptions, and reporting are
+published at [PROJECT POLICY LOCATION]. Adoption is self-declared and does not
+imply certification or endorsement by the ZACS steward.
+----
+
+The compact form does not remove any required Adoption Notice content. Each
+required item MUST be supplied either in the notice or through its identified
+Project Policy.
+
+=== Adoption scope
+
+The scope MUST be specific enough that a reasonable Contributor can determine
+whether a Contribution is covered.
+
+A scope MAY identify:
+
+* an entire organization or Project;
+* one or more repositories;
+* identified branches or release lines;
+* source, documentation, artwork, data, or other material categories;
+* pull requests, patches, issue forms, uploads, or other workflows;
+* Contributions from identified Contributor groups; or
+* another objectively determinable boundary.
+
+A scope such as "selected Contributions" or "where applicable" is insufficient
+unless the Project Policy provides an objective method for determining which
+Contributions are selected or applicable.
+
+A Project MUST state material exclusions with prominence reasonably comparable
+to the adoption claim.
+
+=== Effective Date and pending Contributions
+
+The Effective Date MUST be stated as a calendar date, a date and time, a
+release event, or another objectively determinable event.
+
+The Adoption Notice MUST state how Contributions already under review on the
+Effective Date are treated. The Project MAY:
+
+* exclude them from the new adoption;
+* require them to satisfy the new adoption before acceptance; or
+* define an objectively limited transition period.
+
+The Project MUST NOT represent Contributions as retroactively conforming unless
+the applicable Attestation, provenance, and Verification requirements were
+completed and the Adoption Notice expressly provides for retroactive treatment.
+
+=== Project Policy
+
+The Project Policy MUST provide the operational information necessary to apply
+the selected profiles. As applicable, it MUST identify:
+
+* how a Contributor makes the required Attestation;
+* how and where Disclosure and Documentation are submitted;
+* controls required by P3;
+* how P4 classification questions are resolved;
+* reviewer selection and independence requirements;
+* the V2 demonstration process and accessible alternatives;
+* record-preservation practices;
+* correction, reconsideration, and enforcement procedures; and
+* how suspected rights, provenance, or conformance concerns are reported.
+
+A Project Policy MAY impose stricter compatible requirements. Such requirements
+MUST be identified as Project-specific and MUST NOT be inserted into or
+represented as part of the unmodified ZACS specification.
+
+=== Disclosure Mechanism
+
+The Disclosure Mechanism MUST be available to a Contributor before acceptance
+and MUST permit the information required by the selected Provenance Profile to
+be associated with the Covered Contribution.
+
+A Project MAY use a pull-request template, commit trailer, issue-form field,
+manifest, upload field, policy-controlled comment, or another durable
+mechanism.
+
+The Project MUST NOT require public disclosure of confidential information,
+credentials, personal data, or protected security information when a protected
+Project channel can preserve the required non-public record.
+
+=== Verification Procedure
+
+The Adoption Notice or Project Policy MUST describe how the selected
+Verification Profile is performed.
+
+For V0, it MUST identify the Attestation mechanism. For V1, it MUST
+additionally identify the Human Review and reviewer-independence process. For
+V2, it MUST additionally identify the demonstration method, prohibited
+Contemporaneous Generative Assistance, preserved Evidence, and accessible
+alternatives.
+
+=== Multiple adoption scopes
+
+A Project MAY adopt different profile combinations for different scopes. Each
+combination MUST have its own complete Adoption Identifier, scope, Effective
+Date, and applicable Project Policy.
+
+When scopes overlap, the Project MUST expressly identify one complete,
+previously adopted Adoption Identifier that governs each overlapping Covered
+Contribution. A Project MUST NOT derive a new profile combination from the
+overlap or leave the governing combination to a default inference.
+
+A Project MUST NOT combine a Provenance Profile from one ZACS version with a
+Verification Profile from another version.
+
+=== Changes and upgrades
+
+Changing an Adoption Identifier, scope, Effective Date, or requirement that
+materially affects Contributor obligations requires an updated Adoption Notice.
+
+The updated notice MUST identify:
+
+. the prior Adoption Identifier or policy, when applicable;
+. the new Adoption Identifier or material change;
+. the new Effective Date; and
+. the treatment of pending Contributions.
+
+Publication of a new ZACS version does not automatically upgrade a Project.
+The Project remains pinned to its adopted version until it publishes and
+implements an updated Adoption Notice.
+
+Editorial changes to contact details, links, or presentation do not require a
+new Effective Date when they do not change the applicable requirements or
+reduce accessibility.
+
+=== Suspension and withdrawal
+
+A Project MAY suspend or withdraw an adoption prospectively by publishing a
+notice that identifies the affected scope and effective time.
+
+Suspension or withdrawal does not change the historical Adoption Identifier or
+the requirements that applied when a Covered Contribution was submitted. The
+Project SHOULD preserve prior notices and policies when reasonably necessary to
+interpret historical Contribution records.
+
+A Project MUST NOT continue making a present-tense conformance claim for a
+suspended or withdrawn scope.
+
+=== Adoption badges and claims
+
+A Project MAY use an official adoption badge when the badge accurately states
+the complete Adoption Identifier and is used according to the applicable
+trademark and badge policy.
+
+An adoption badge MUST NOT use "certified", "approved", or equivalent wording
+unless an authorized program has independently granted that status.
+
+The absence of review by the ZACS steward MUST NOT be concealed when a claim or
+badge could otherwise reasonably imply independent assessment.

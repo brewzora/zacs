@@ -1,0 +1,45 @@
+= Zero Ambiguity Contribution Standard
+ifndef::zacs-version[:zacs-version: 0.1]
+ifndef::zacs-status[:zacs-status: draft]
+ifndef::zacs-identifier[:zacs-identifier: zacs-0.1-draft]
+ifndef::publication-date[:publication-date: 2026-08-25]
+:toc: left
+:toclevels: 3
+:sectnums:
+:sectnumlevels: 4
+
+Version {zacs-version}, {zacs-status}
+
+Identifier: `{zacs-identifier}`
+
+Published {publication-date}
+
+Copyright © 2026 Logan Yagadics, doing business as Brewzora Studios.
+
+This specification and its documentation are licensed under the
+Creative Commons Attribution 4.0 International License (CC BY 4.0).
+
+License: https://creativecommons.org/licenses/by/4.0/[CC BY 4.0]
+
+ZACS™ and Zero Ambiguity Contribution Standard™ are trademarks.
+See https://github.com/brewzora/zacs/blob/main/TRADEMARKS.md[TRADEMARKS.md].
+
+include::spec/sections/00-preamble.adoc[]
+
+include::spec/sections/01-conformance.adoc[]
+
+include::spec/sections/02-scope.adoc[]
+
+include::spec/sections/03-definitions.adoc[]
+
+include::spec/sections/04-provenance-profiles.adoc[]
+
+include::spec/sections/05-verification-profiles.adoc[]
+
+include::spec/sections/06-attestation.adoc[]
+
+include::spec/sections/07-adoption.adoc[]
+
+include::spec/sections/08-enforcement.adoc[]
+
+include::spec/sections/09-legal-limitations.adoc[]

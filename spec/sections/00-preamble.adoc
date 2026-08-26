@@ -1,0 +1,13 @@
+== Preamble
+
+The Zero Ambiguity Contribution Standard (ZACS) is an assurance standard for
+contributions made with the assistance of generative or transformative
+automated systems.
+
+Its core philosophy is that tools may assist, but an identifiable human remains
+accountable for each contribution they submit.
+
+ZACS provides a structured framework for contribution provenance, disclosure,
+human understanding, and verification. It complements existing project
+licenses, contributor license agreements (CLAs), and the unmodified Developer
+Certificate of Origin (DCO). It does not replace them.

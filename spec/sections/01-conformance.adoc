@@ -1,0 +1,182 @@
+== Conformance
+
+=== Normative language
+
+The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT",
+"SHOULD", "SHOULD NOT", "RECOMMENDED", "NOT RECOMMENDED", "MAY", and
+"OPTIONAL" in this document are to be interpreted as described in BCP 14,
+https://www.rfc-editor.org/rfc/rfc2119[RFC 2119], and
+https://www.rfc-editor.org/rfc/rfc8174[RFC 8174], when, and only when, they
+appear in all capitals as
+shown here.
+
+Lowercase uses of these words have their ordinary meanings.
+
+=== Conformance model
+
+ZACS defines requirements along two independent assurance dimensions:
+
+* a Provenance Profile, identified by `P` followed by a profile number; and
+* a Verification Profile, identified by `V` followed by a profile number.
+
+A Project claiming ZACS conformance MUST adopt exactly one Provenance Profile
+and exactly one Verification Profile from the same ZACS version.
+
+The selected profiles form a single Adoption Identifier in the following
+order:
+
+`ZACS-{version}-{Provenance Profile}-{Verification Profile}`
+
+For example:
+
+`ZACS-0.1-draft-P2-V1`
+
+The canonical form uses uppercase `ZACS`, `P`, and `V`, the version component
+stated in the publication header, and no spaces. Adoption Identifiers are
+case-sensitive and MUST be reproduced exactly in conformance claims.
+
+Profile identifiers from different ZACS versions MUST NOT be combined in one
+Adoption Identifier.
+
+=== Profile inheritance
+
+Profiles are cumulative within each assurance dimension. Unless a profile
+expressly replaces a lower-profile requirement, adoption of a higher-numbered
+profile incorporates every requirement of each lower-numbered profile in the
+same dimension.
+
+An express replacement changes only the requirement identified by the
+replacing profile. All other inherited requirements remain applicable.
+
+Requirements from one assurance dimension MUST NOT be treated as satisfying or
+replacing requirements from the other dimension. A Provenance Profile does not
+establish Verification conformance, and a Verification Profile does not
+establish Provenance conformance.
+
+=== Project conformance
+
+A Project conforms to an adopted ZACS version and profile combination only if
+the Project:
+
+. publishes an Adoption Notice meeting the requirements of this Standard;
+. identifies the exact ZACS version, Provenance Profile, and Verification
+  Profile adopted;
+. identifies the Contributions, repositories, branches, workflows, or other
+  locations within the adoption scope;
+. identifies the adoption's effective date;
+. publishes any Project Policy necessary to apply the selected profiles;
+. provides each disclosure, attestation, review, and exception mechanism
+  required by the selected profiles;
+. applies every applicable requirement of both selected profiles to covered
+  Contributions submitted on or after the effective date; and
+. does not represent a materially incomplete or modified implementation as
+  conforming to the unmodified profile combination.
+
+A Project MUST make its Adoption Notice and applicable Project Policy
+reasonably accessible to prospective Contributors before or during submission.
+
+=== Adoption scope
+
+A Project MAY adopt ZACS for all Contributions or for a clearly identified
+subset. A limited scope MUST be described with enough specificity that a
+reasonable Contributor can determine whether a Contribution is covered.
+
+A Project MUST NOT describe an entire repository or organization as conforming
+when its published adoption scope covers only part of that repository or
+organization, unless the limitation is stated with comparable prominence.
+
+Material submitted before the effective date is not retroactively covered
+unless the Adoption Notice expressly states otherwise and identifies how the
+Project will apply the requirements to that material.
+
+=== Project-specific requirements
+
+A Project MAY impose requirements stricter than those required by its selected
+profiles. Stricter requirements MUST be clearly identified as Project-specific
+requirements and MUST NOT be presented as part of the unmodified ZACS text.
+
+A Project-specific requirement MUST NOT remove, weaken, contradict, or create
+an exception to an applicable ZACS requirement while the Project claims
+conformance to the same profile combination.
+
+If a Project modifies, omits, or weakens an applicable requirement, it MUST NOT
+claim conformance to the affected profile combination. It MAY accurately state
+that its policy is informed by or derived from ZACS, provided the statement
+identifies the relevant modifications and does not imply conformance.
+
+=== Exceptions
+
+An exception is conforming only when the adopted profile expressly permits
+that kind of exception and the Project follows every condition imposed on it.
+
+A permitted exception MUST:
+
+. be documented through the mechanism identified by the Project Policy;
+. identify its scope and justification;
+. be approved by a person or role authorized by the Project Policy; and
+. preserve all requirements not affected by the exception.
+
+A Project MUST NOT create an exception to an unconditional `MUST` or
+`MUST NOT` requirement unless this Standard expressly authorizes the exception.
+
+=== Contribution treatment
+
+A covered Contribution satisfies the Project's adopted ZACS requirements only
+when the Contributor and Project complete every requirement applicable to that
+Contribution under both selected profiles and the Project Policy.
+
+Acceptance or merging of a Contribution does not, by itself, establish that
+the Contribution satisfied ZACS. A Project SHOULD preserve the disclosures,
+attestations, approvals, and review records reasonably necessary to support its
+conformance claim.
+
+When nonconformance is discovered after acceptance, the Project SHOULD
+investigate and take proportionate corrective action. Corrective action MAY
+include obtaining missing disclosure, repeating review, correcting the
+Contribution, reverting it, or removing affected material.
+
+=== Conformance claims
+
+A conformance claim MUST include the complete Adoption Identifier and MUST NOT
+omit either assurance dimension.
+
+A conforming claim MAY state:
+
+`This Project adopts ZACS-0.1-draft-P2-V1.`
+
+A Project MUST NOT use a higher profile number in a conformance claim unless it
+satisfies that profile and every inherited requirement.
+
+A Project MUST NOT describe adoption or self-attested conformance as
+"certification", "certified", "approval", "approved", or an equivalent claim
+unless an expressly authorized certification or approval program exists and
+the Project has completed that program.
+
+ZACS adoption does not imply sponsorship, endorsement, audit, or independent
+verification by the ZACS steward.
+
+=== Version pinning and upgrades
+
+A conformance claim applies only to the exact ZACS version identified in the
+Adoption Notice. Publication of a newer ZACS version does not automatically
+change an existing adoption.
+
+To adopt another version or profile combination, the Project MUST publish an
+updated Adoption Notice containing the new Adoption Identifier and effective
+date. The Project SHOULD identify any transition period and the treatment of
+Contributions already under review.
+
+A moving reference such as `latest`, `current`, or `most recent` MUST NOT be
+used as the normative version reference in an Adoption Notice.
+
+=== Nature and limits of conformance
+
+ZACS conformance is based on documented Project procedures, Contributor
+attestations, and the review required by the adopted profiles. It is not an
+independent guarantee of authorship, provenance, legality, originality,
+copyrightability, license compatibility, correctness, security, privacy, or
+fitness for a particular purpose.
+
+Conformance does not grant copyright or patent rights, replace a project
+license, replace a contributor license agreement, or modify the Developer
+Certificate of Origin.

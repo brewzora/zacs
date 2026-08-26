@@ -1,0 +1,216 @@
+== Contribution Attestation
+
+=== Purpose
+
+The Contribution Attestation records the assurances made by the identifiable
+human Contributor for a Covered Contribution. It supplies Evidence required by
+V0 and inherited by every higher Verification Profile.
+
+An Attestation is a statement by the Contributor. It is not independent proof
+of the matters stated and does not make the Project a certifying body.
+
+=== Required association
+
+Each Attestation MUST be reliably associated with:
+
+. the identifiable human Contributor;
+. the Covered Contribution or an unambiguous set of Covered Contributions;
+. the Project receiving the Contribution;
+. the complete Adoption Identifier; and
+. the date or objectively determinable submission event.
+
+A Project MAY obtain one Attestation for multiple Contributions only when the
+covered Contributions are unambiguously identified, governed by the same
+Adoption Identifier, and submitted or authorized by the same Contributor.
+
+=== Standard Attestation
+
+The Project MUST obtain the following Core Attestation and applicable
+Provenance Profile statement before accepting a Covered Contribution.
+
+The Project MAY adapt formatting, field labels, pronouns, or presentation to
+its submission system. It MAY incorporate the Attestation by a clear reference
+to an accessible copy. A translation MUST faithfully communicate every
+applicable statement, identify the language and ZACS version translated, and
+state that the English text of the Official ZACS Publication controls if the
+meanings conflict. The Project MUST NOT omit, combine, qualify, or alter an
+applicable assurance while claiming ZACS conformance. Project-specific
+assurances MUST be separately identified.
+
+==== Identification
+
+The Attestation record MUST identify:
+
+* `Project`: the adopting Project;
+* `Contribution`: the Contribution or covered set of Contributions;
+* `Contributor`: the identifiable human making the Attestation; and
+* `Adoption Identifier`: the exact ZACS version and selected profiles.
+
+==== Core Attestation text
+
+The Contributor MUST affirm the following statements, subject only to the
+permitted presentation and translation changes above:
+
+. I am the identifiable human Contributor responsible under ZACS for this
+  Contribution, whether I submit it personally or on behalf of another person
+  or organization.
+. I have personally reviewed the complete Contribution.
+. I understand the Contribution sufficiently to explain its purpose,
+  methodology, material design decisions, operation, and validation to the
+  extent applicable.
+. I understand it sufficiently to maintain or revise it to the degree
+  reasonably expected for my role.
+. I reasonably believe that I, or the person or organization on whose behalf I
+  submit, have the right to submit the Contribution under the Project's
+  applicable terms.
+. I have disclosed Known Source Material and material provenance information
+  relevant to the Project's rights or obligations unless it is already clearly
+  identified in the Contribution or its preserved notices, and I have not
+  knowingly concealed Third-Party Material or its source.
+. I have preserved copyright, license, attribution, and other notices required
+  for material included in the Contribution.
+. I have made the Disclosures and supplied the Documentation required by the
+  Project's adopted ZACS profiles and Project Policy.
+. I accept responsibility for the contents of the Contribution regardless of
+  the tools used.
+. I can explain the Contribution from my own understanding and, when required
+  by the adopted Verification Profile, will do so without Contemporaneous
+  Generative Assistance.
+. I will cooperate reasonably in investigating and correcting suspected
+  provenance, rights, or ZACS conformance problems involving the Contribution.
+. I understand that this Attestation does not transfer copyright, grant a
+  patent license, replace a CLA or DCO, or guarantee that the Contribution is
+  lawful, original, correct, secure, or otherwise fit for a particular purpose.
+
+=== Provenance Profile statements
+
+The Project MUST append the statement for its selected Provenance Profile to
+the Core Attestation. Because profiles are cumulative, the selected statement
+incorporates the applicable lower-profile obligations.
+
+==== P0 statement
+
+P0 requires no additional AGS-use statement beyond the Core Attestation. The
+Project MUST nevertheless make the complete P0 responsibilities reasonably
+accessible to the Contributor.
+
+==== P1 statement
+
+For P1, the Contributor MUST additionally affirm:
+
+* I have disclosed each known use of Material Assistance and identified the
+  systems and affected portions or categories to the extent reasonably known.
+
+==== P2 statement
+
+For P2, the Contributor MUST additionally affirm:
+
+* I have disclosed and documented each known use of Material Assistance,
+  including its purpose, material effect, affected material, Known Source
+  Material, human review, and validation to the extent required and reasonably
+  known.
+
+==== P3 statement
+
+For P3, the Contributor MUST additionally affirm:
+
+* I have disclosed and documented each known use of Material Assistance,
+  complied with every applicable Project control, identified every approved
+  exception, and have no known unapproved deviation from those controls.
+
+A known or suspected deviation MUST be reported separately through the
+Project's correction or enforcement process. The Contributor MUST NOT make the
+P3 Attestation until the deviation is corrected, determined not to be a
+deviation, or covered by an approved exception permitted under P3.
+
+==== P4 statement
+
+For P4, the Contributor MUST additionally affirm:
+
+* To the best of my knowledge after reasonable inquiry, this Contribution was
+  not prepared with Material Assistance. I did not use Material Assistance in
+  preparing it, and any AGS use in its preparation satisfied the definition of
+  Incidental Assistance.
+
+Disclosure or Documentation of Material Assistance MUST NOT replace the P4
+statement or cure P4 nonconformance.
+
+=== Affirmative act
+
+The Contributor MUST make the Attestation through an affirmative act reasonably
+calculated to communicate agreement. Acceptable mechanisms MAY include:
+
+* selecting a control that is not preselected;
+* submitting a pull-request or issue-form declaration;
+* applying an attributable commit trailer or sign-off that clearly incorporates
+  the Attestation;
+* signing an electronic or physical statement; or
+* using another attributable Project-approved mechanism.
+
+Opening an account, remaining silent, viewing the Attestation, or submitting
+through a control selected by default MUST NOT constitute an Attestation.
+
+An automated system MAY record or transmit an Attestation already authorized
+by the Contributor, but it MUST NOT make, infer, or independently alter the
+Attestation on the Contributor's behalf.
+
+=== Commit and pull-request mechanisms
+
+A Project MAY use a commit trailer such as:
+
+[source,text]
+----
+ZACS-Attestation: ZACS-0.1-draft-P2-V1
+----
+
+The trailer satisfies V0 only when the Project Policy clearly states that
+applying it affirmatively incorporates the complete Attestation applicable to
+that Adoption Identifier and the commit is attributable to the Contributor.
+
+A Project MAY instead use a pull-request checkbox or form field containing or
+linking to the complete applicable Attestation. The control MUST NOT be
+preselected.
+
+The ZACS Attestation SHOULD remain separate from a DCO sign-off. A Project MAY
+display or collect both in one workflow, but it MUST NOT modify the text of the
+DCO while representing it as the unmodified DCO.
+
+=== Changes after Attestation
+
+When a Contribution is materially changed after Attestation, the Contributor
+MUST review the changed Contribution and renew or expressly reconfirm the
+Attestation before acceptance.
+
+A Project Policy MAY define changes that do not require renewal, such as a
+maintainer-applied formatting correction, only when the change does not alter
+the substance, provenance classification, required Disclosure, required
+Documentation, or applicable profile outcome.
+
+When another person materially changes the Contribution, that person becomes a
+Contributor for the changed material and MUST make the applicable Attestation,
+unless the material is separately submitted and attested through another
+covered process.
+
+=== Correction and withdrawal
+
+A Contributor who discovers that an Attestation was materially inaccurate or
+incomplete MUST notify the Project promptly through a reasonably available
+channel and provide corrected information.
+
+The Project MUST provide a reasonably accessible method for correcting or
+withdrawing an Attestation. The Project MAY preserve the prior Attestation and
+correction when necessary to maintain an accurate review or compliance record.
+
+Correction does not automatically cure nonconformance. The Project MUST apply
+the review, corrective, and enforcement procedures required by the adopted
+profiles and Project Policy.
+
+=== Relationship to rights and agreements
+
+The ZACS Attestation is not a copyright assignment, patent license, contributor
+license agreement, employment agreement, confidentiality agreement, or DCO.
+
+Any license granted with a Contribution arises from the Project's separately
+applicable contribution terms, license, CLA, DCO process, or other agreement.
+The Project MUST NOT describe the ZACS Attestation itself as granting rights
+that it does not expressly grant.
