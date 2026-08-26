@@ -75,8 +75,10 @@ For each Covered Contribution, the Contributor MUST:
 . reasonably believe that they, or the person or organization on whose behalf
   they submit, have the right to submit it under the Project's applicable
   terms;
-. not knowingly conceal Known Source Material or material provenance
-  information relevant to the Project's rights or obligations;
+. disclose Known Source Material and material provenance information relevant
+  to the Project's rights or obligations, unless it is already clearly
+  identified in the Contribution or its preserved notices;
+. not knowingly conceal Third-Party Material or its source;
 . preserve required copyright, license, and attribution notices;
 . accept responsibility for the contents of the Contribution regardless of the
   tools used; and
@@ -88,6 +90,19 @@ required by another applicable Project rule remains required.
 
 The Project MUST provide a mechanism by which the Contributor can make the P0
 Attestation required by this Standard.
+
+If the complete Contribution cannot be personally reviewed because of its
+size, format, opacity, or method of production, it does not satisfy P0 merely
+because a sample, summary, manifest, or automated report was reviewed. A
+Project MAY exclude objectively identified material from its adoption scope,
+but it MUST NOT represent excluded material as conforming.
+
+When multiple humans materially prepare a Contribution, each such person MUST
+make the applicable Attestation for the material they prepared unless one
+Contributor personally reviews the complete Contribution, satisfies every
+Contributor requirement for it, and affirmatively accepts responsibility for
+the complete Contribution. Organizational authorization alone does not
+satisfy these conditions.
 
 ==== P0 and organizational submissions
 
@@ -189,9 +204,15 @@ The Project Policy MUST identify:
 . any permitted exception process; and
 . the consequences and corrective process for noncompliance.
 
-P3 requires at least one substantive constraint beyond P2 Disclosure and
-Documentation. A substantive constraint limits whether, where, or how Material
-Assistance may be used or requires an additional safeguard before acceptance.
+P3 requires a minimum control baseline beyond P2 Disclosure and Documentation.
+The Project Policy MUST include:
+
+. at least one use-boundary control limiting where, when, or through which
+  systems Material Assistance may be used;
+. at least one information-protection control governing confidential,
+  personal, security-sensitive, licensed, or other protected input; and
+. at least one acceptance safeguard requiring approval, additional Human
+  Review, testing, isolation, provenance review, or an equivalent measure.
 
 Examples of substantive constraints include:
 
@@ -205,7 +226,10 @@ Examples of substantive constraints include:
 * requiring additional validation for AGS-affected material.
 
 The examples are informative. A Project MAY adopt other substantive controls
-consistent with this Standard.
+consistent with this Standard, but its controls MUST collectively satisfy the
+minimum baseline above. P3 identifies Project-controlled use; it does not imply
+that every P3 Project imposes identical controls or an identical degree of
+risk reduction.
 
 The Contributor MUST comply with every P3 control applicable to the Covered
 Contribution. Disclosure of a violation does not cure the violation.
@@ -216,13 +240,18 @@ Project MUST document the scope, justification, and approval of each exception.
 
 === P4 -- No Material Assistance
 
-P4 incorporates the accountability requirements of P0 and the classification
-rules of this section. It expressly replaces the permission under P1 through P3
-to submit Contributions made with Material Assistance.
+P4 incorporates P0 and the Common Classification Requirements. It replaces
+the ordinary disclosure, documentation, and controlled-use requirements of P1
+through P3 because a Contribution prepared with Material Assistance cannot
+conform to P4. The corrective disclosure requirements stated in P4 remain
+applicable.
 
-A Contributor MUST NOT use Material Assistance in preparing a Covered
-Contribution. AGS use is permitted only when it satisfies the definition of
-Incidental Assistance.
+A Covered Contribution MUST NOT be prepared with Material Assistance. The
+Contributor MUST NOT use Material Assistance and MUST make reasonable inquiry
+about material supplied by another person or organization when circumstances
+provide a credible indication that Material Assistance may have been used.
+AGS use in preparing the Contribution is permitted only when it satisfies the
+definition of Incidental Assistance.
 
 Disclosure or Documentation of Material Assistance does not make the
 Contribution conform to P4. A Project-specific exception MUST NOT permit
@@ -234,10 +263,10 @@ MUST disclose it to the Project for investigation. This corrective Disclosure
 does not make the affected Contribution conforming, but it satisfies the duty
 not to conceal the suspected nonconformance.
 
-The Project MUST NOT accept a Contribution under P4 while it knows that the
-Contribution was prepared with Material Assistance. The Project MAY permit a
-new or replacement Contribution prepared through a process that independently
-satisfies P4.
+The Project MUST NOT accept a Contribution under P4 while it knows, or has an
+unresolved material basis to believe, that the Contribution was prepared with
+Material Assistance. The Project MAY permit a new or replacement Contribution
+prepared through a process that independently satisfies P4.
 
 P4 does not prohibit conventional non-generative tools, ordinary accessibility
 tools, non-generative reference materials, or Incidental Assistance.
@@ -258,8 +287,8 @@ ownership.
 |Personal review and sufficient understanding
 |Yes |Yes |Yes |Yes |Yes
 
-|Material Assistance permitted by ZACS
-|Yes |Yes |Yes |Conditional |No
+|Material Assistance profile treatment
+|Not restricted |Disclosure |Documentation |Project-controlled |Prohibited
 
 |Material Assistance Disclosure
 |No |Yes |Yes |Yes |Corrective only
@@ -270,8 +299,9 @@ ownership.
 |Published substantive Project controls
 |No |No |No |Yes |Prohibition
 
-|Incidental Assistance permitted by ZACS
-|Yes |Yes |Yes |Yes |Yes
+|Incidental Assistance profile treatment
+|Not restricted |Not restricted |Not restricted |Not restricted
+|Not restricted
 |===
 
 "No" in this table means the identified requirement is not imposed by that
