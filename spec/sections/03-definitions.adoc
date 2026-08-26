@@ -48,8 +48,12 @@ this Standard.
 Contemporaneous Generative Assistance::
 Use of an AGS while preparing or providing a response in a Verification
 Procedure intended to assess the Contributor's own understanding. The term
-does not include ordinary accessibility tools, non-generative reference
-materials, or conventional non-generative translation tools.
+does not include non-generative reference materials, conventional
+non-generative translation tools, or an accessibility tool used solely to
+change modality, presentation, navigation, or communication. The exclusion
+for accessibility tools does not apply when the tool generates substantive
+answers, explanations, reasoning, or other content responsive to the
+Verification Procedure.
 
 Covered Contribution::
 A Contribution within the scope and effective period stated in a Project's
@@ -112,6 +116,19 @@ licensing, provenance, or maintainability.
 When AGS use does not satisfy every condition of Incidental Assistance, it MUST
 be treated as Material Assistance unless another adopted-profile category
 expressly applies.
+
+Material, Materially, and Substantive::
+Significant enough that the matter could reasonably affect a Contribution's
+provenance, licensing, design, methodology, implementation, behavior,
+correctness, security, privacy, maintainability, acceptance, or applicable
+conformance outcome. The determination considers the circumstances and the
+information known or reasonably available when it is made. Related effects
+MUST be considered together and MUST NOT be treated as immaterial solely
+because each effect would be minor in isolation.
+
+Normative Specification Reference::
+The reasonably accessible reference in an Adoption Notice to the complete,
+unmodified Official ZACS Publication identified by the adopted version.
 
 Official ZACS Publication::
 A complete, unmodified ZACS publication released by the ZACS steward through
@@ -176,4 +193,5 @@ does not identify a complete conformance target.
 
 ZACS Identifier::
 The identifier of an exact Official ZACS Publication, excluding the profiles
-selected by an adopting Project. For example, `zacs-0.1-draft`.
+selected by an adopting Project. It MUST be reproduced exactly as stated in
+the publication header. For example, `zacs-0.1-draft`.
