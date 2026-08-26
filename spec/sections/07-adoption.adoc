@@ -85,8 +85,9 @@ converted edition as official for the identified version.
 
 === Standard Adoption Notice
 
-A conforming Project MUST publish a notice substantively equivalent to the
-following template:
+A conforming Project MUST publish an Adoption Notice containing every item in
+the following template. Formatting and explanatory language MAY change, but no
+required field or assurance may be omitted or materially weakened:
 
 [source,text]
 ----
@@ -227,14 +228,10 @@ A Project MAY adopt different profile combinations for different scopes. Each
 combination MUST have its own complete Adoption Identifier, scope, Effective
 Date, and applicable Project Policy.
 
-When scopes overlap, the Project MUST state which profile combination governs
-the overlap. If the Project does not state a rule, the higher Provenance
-Profile and higher Verification Profile govern the overlapping Covered
-Contribution.
-
-The default rule above applies only when the overlapping scopes use the same
-ZACS version. If they use different versions, the Project MUST expressly state
-which complete Adoption Identifier governs the overlap.
+When scopes overlap, the Project MUST expressly identify one complete,
+previously adopted Adoption Identifier that governs each overlapping Covered
+Contribution. A Project MUST NOT derive a new profile combination from the
+overlap or leave the governing combination to a default inference.
 
 A Project MUST NOT combine a Provenance Profile from one ZACS version with a
 Verification Profile from another version.
